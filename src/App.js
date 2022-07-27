@@ -1,11 +1,15 @@
+import CommunityComp from './components/community-comp';
+import PriceComponent from "./components/price-component";
+import InfoComponent from "./components/info-component";
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Oscar Anillo</h1>
-      <p>Web UI Developer</p>
+      <CommunityComp />
+      <PriceComponent />
+      <InfoComponent />
     </div>
   );
 }
