@@ -7,9 +7,20 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <CommunityComp />
-      <PriceComponent />
-      <InfoComponent />
+      <div className="container">
+        <CommunityComp />
+        <div className="row">
+          <div>
+
+          <PriceComponent />
+          </div>
+          <div>
+
+           <InfoComponent />
+          </div>
+
+        </div>
+      </div>
     </div>
   );
 }
